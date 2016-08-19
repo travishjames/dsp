@@ -46,15 +46,20 @@ cross-platform.
 
 **Course material for the bootcamp is currently based on Python version 2.7. Students have the option of using either version 2 or 3 during the bootcamp, but should be aware of some differences in code between the two versions.**  
 
-Did you install Python 2 or 3? Why?  
+Did you install Python 2 or 3? Why? 
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I chose to download Python version 3 because of the release of new standard library improvements. Since this version is currently being updated and improved upon, I prefer to learn about its functionality now and be comfortable at the command line in order to pick up and capitalize on these updates.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Type and execute the following code in the terminal:
+      
+      import sys
+      print(sys.version)
+   
+   This should print out the version currently being used on the device.
 
  
 

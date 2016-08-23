@@ -68,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I chose to download Sublime for my IDE/graphical editor because of it's simplicity and how neat its display is. I also read that it has a nice command palette that aids in finding keyboard shortcuts for beginners. While its clean display and flatter learning curve will be nice in the beginning, I am by no means committed to Sublime and may actually prefer to use vim for both my terminal and graphical editor as I become more fluent and comfortable with the software.
 
  

@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I chose to donwload Vim as my terminal editor. The reason for this is that it hits a sweet spot in terms of its functionality and efficiency, and also it's ease of use. I watched some videos online and read forum posts, and Vim and Emacs seem to be the editors with the steepest learning curves, but are really powerful and worth the time cost of learning them. I sided with Vim as it seems to be more ubiquitous throughout industry, and can also be used right away on another person's machine. While Emacs provides a large degree of costumizability, its all-in-one capabilities seem a little unnecessary and I would prefer to not be bounded to my machine for its terminal editor.
 
 --
 

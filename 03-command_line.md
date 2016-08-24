@@ -41,13 +41,13 @@ What do the following commands do:
 `ls -Glp`  
 
 > >
-'ls: list contents of a file or directory'
-'ls -a: list all files'
-'ls -l: display the long format listing'
-'ls -lh: display the long format listing, with human readable file size'
-'ls -lah: list long format including hidden files, with human readble file size'
-'ls -t: display contents in reverse chronological order'
-'ls -Glp: display contents with directories highlighted in blue and files in black'
+ls: list contents of a file or directory
+ls -a: list all files
+ls -l: display the long format listing
+ls -lh: display the long format listing, with human readable file size
+ls -lah: list long format including hidden files, with human readble file size
+ls -t: display contents in reverse chronological order
+ls -Glp: display contents with directories highlighted in blue and files in black
 
 ---
 

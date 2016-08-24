@@ -14,7 +14,6 @@ these in a couple of hours.
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
 > > 1. pwd- print working directory
-
 > > 2. mkdir- make directory
 > > 3. cd - change directory
 > > 4. ls- list contents of directory

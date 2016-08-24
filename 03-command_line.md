@@ -68,11 +68,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > xargs executes some operation by passing a long list of arguments produced by commands like 'find' or 'grep'. This is useful because many Unix systems don't accept long lists of arguments, and xarg can divide such a list into sublists and allow the terminal to execute such a command. An example of how xargs work is you can use it to search for all files of a certain type within a directory, e.g. finding one's resume in their documents folder:
+> > xargs executes some operation by passing a long list of arguments produced by commands like 'find' or 'grep'. This is useful because many Unix systems don't accept long lists of arguments, and xarg can divide such a list into sublists and allow the terminal to execute such a command. An example of how xargs work is you can use it to search for a specific file of a certain type within a specified directory, e.g. finding one's resume in their documents folder:
 
 > > find ./documents -name "*.docx" | xargs grep "resume"
 
-> > the above code finds all documents .docx files in the documents directory and below, and then searches through each of these files for the word "resume".
+> > the above code finds all documents of type .docx files in the documents directory and below, and then searches through each of these files for the word "resume".
 
 
 

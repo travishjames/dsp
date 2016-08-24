@@ -55,7 +55,7 @@ ls -Glp: display contents with directories highlighted in blue and files in blac
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 
+> >
 1. ls -d: displays only directories <br />
 2. ls -R: display subdirectories <br />
 3. ls -u: display files by file access time <br />

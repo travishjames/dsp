@@ -27,6 +27,7 @@ How are Python lists and sets similar and different? Give examples of using both
 >> An example would be when we are keeping track of peoples contact information. Obviously we don't want more than one entry per person, and could implement a set to ensure that each individual has their own unique value that maps to their information. If we do want duplicates, however, and if order matters, we should use a list. An example of when this would be appropriate is when we are keeping track of the frequency of certain purchases, say at the grocery store, over time. In this instance, both allowing for duplicate purchases and keeping track of the order in which items were bought would be of interest, and thus a list would be preferred to a set. 
 
 >> When we want to find a specific element, sets are faster than lists because they store elements in a hashtable. Thus, whenever we add an element to a set, its position is determined using the hash of the set. This is simultaneously why sets do not preserve the order of the sequence in question, but also why they are faster than lists in finding a specific element. With a list, the computer must iterate over the entire sequence, while with a set it simply goes directly to the hash where the element should be stored and checks to see if it exists.
+
 ---
 
 ###Q3. Lambda Function

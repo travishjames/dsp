@@ -40,7 +40,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 fruit_tuple = [ ('grapes', 5), ('apples', 10), ('oranges', 4), ('grapefruit', 2) ]
 sorted(fruit_tuple, key = lambda frequency: frequency[1])
 
-The above code takes a tuple of the frequency of monthly purchases of different types of fruit for an individual. What the lambda does in conjunction with the key argument in the sorted function is it ensures that the tuple is ordered by the most frequently purchased fruit. In this case then, the lambda (or function) we define simply returns the value in the 1 index of each element of the tuple, which is the number of purchases for that particular type of fruit. Our sorted function now knows to sort by that specific key, and orders out list according to the number of purchases of each fruit.
+>> The above code takes a tuple of the frequency of monthly purchases of different types of fruit for an individual. What the lambda does in conjunction with the key argument in the sorted function is it ensures that the tuple is ordered by the most frequently purchased fruit. In this case then, the lambda (or function) we define simply returns the value in the 1 index of each element of the tuple, which is the number of purchases for that particular type of fruit. Our sorted function now knows to sort by that specific key, and orders out list according to the number of purchases of each fruit.
 
 ---
 
@@ -50,20 +50,20 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> List comprehensions are a concise and easy way to create and transform lists in Python. Written in much the same way mathematicians write and view lists, list comprehensions can create patterns and subsets in a short and easy way, without having to define a seperate function containing loops to do so.
 
-Examples:
+>> Examples:
 squares = [x**2 for x in range (5)] ##creates the following list of squares: 0, 1, 2, 4, 9, 16
 double_evens = [x*2 for x in range (10) if x%2 == 0] ##creates the following list of even numbers: 0, 4, 8, 12, 16
 
-Map equivalent:
+>> Map equivalent:
 squares = list(map(lambda x: x**2, range(5)))
 double_evens = list(map(lambda x: x*2, filter(lambda x: x%2 == 0, range(10))))
 
-List comprehensions are nice because they are more straight forward in communicating what one is trying to implement. Using map and filter, however, is a more detailed description of implementing the same functionality, and thus allows for easier detection of bugs and problems with the code. Both accomplish the same task, but in slightly different ways.
+>> List comprehensions are nice because they are more straight forward in communicating what one is trying to implement. Using map and filter, however, is a more detailed description of implementing the same functionality, and thus allows for easier detection of bugs and problems with the code. Both accomplish the same task, but in slightly different ways.
 
-Set comprehension: similar to list comprehensions but us a { instead of a [
+>> Set comprehension: similar to list comprehensions but us a { instead of a [
 outlier_letters = {x for x in 'flibbertigibbet' if x not in 'b'} #quick membership check of letters in word, excluding b
 
-Dictionary comprehension: similar to declaring a set comprehension, but with a colon seperating key and value
+>> Dictionary comprehension: similar to declaring a set comprehension, but with a colon seperating key and value
 doubles = {x: x*2 for x in range(5)}
 
 ---

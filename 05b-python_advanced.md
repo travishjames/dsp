@@ -37,7 +37,8 @@ Note: I noticed a pattern while looking through the csv file that the last two w
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> There are 4 different types of email domains. The list of unique email domains is as follows:
+['email.chop.edu', 'upenn.edu', 'cceb.med.upenn.edu', 'mail.med.upenn.edu']
 
 Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
 

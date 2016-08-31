@@ -7,7 +7,7 @@ response = urllib2.urlopen(url)
 cr = csv.reader(response)
 list_all = list(cr)
 
-Q1
+#Q1
 
 total_degrees = [item[1] for item in list_all]
 unique_degrees = {}
@@ -23,7 +23,7 @@ for i in range(1, len(total_degrees)):
 print(unique_degrees)
 print(len(unique_degrees))
 
-Q2.
+#Q2.
 
 total_titles = [item[2] for item in list_all]
 unique_titles = {}
@@ -37,13 +37,13 @@ for t in range(1, len(total_titles)):
 print(unique_titles)
 print(len(unique_titles))
 
-Q3.
+#Q3.
 
 emails = [list_all[item][3] for item in range(1, len(list_all))]
 
 print(emails)
 
-Q4.
+#Q4.
 
 emails = [list_all[item][3] for item in range(1, len(list_all))]
 domains = set()

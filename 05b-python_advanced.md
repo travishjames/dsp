@@ -25,7 +25,9 @@ MD: 1, MA: 1, ScD: 6, BSEd: 1, PhD: 31, 0: 1, MPH: 2, MS: 2, JD: 1
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> There are three different titles. Their names and frequencies are as follows:
+Assistant Professor: 12, Professor: 13, Associate Professor: 12
+Note: I noticed a pattern while looking through the csv file that the last two words of the title were redundant and irrelevant. I also saw that I would actually get unique values that were really misnomers because of these additional strings, and decided to remove them from the titles altogether using my python code.
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.

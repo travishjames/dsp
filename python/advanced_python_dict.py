@@ -18,7 +18,7 @@ for i in range(1, len(list_all)):
 	else:
 		faculty_dict[list_all[i][0]] = [list_all[i][1], list_all[i][2], list_all[i][3]]
 		
-print(faculty_dict)
+print({item: faculty_dict[item] for item in faculty_dict.keys()[:3]})
 
 #Q7.
 

@@ -35,3 +35,14 @@ print({item: professor_dict[item] for item in professor_dict.keys()[:3]})
 
 #Q8.
 
+professor_dict = {}
+for i in range(1, len(list_all)):
+	full_name = list_all[i][0].split()
+	first_last = (full_name[0], full_name[-1])
+	list_all[i][1] = list_all[i][1].strip() #removing white space from degree name
+	list_all[i][2] = list_all[i][2].rsplit(' ', 2)[0] #removing end of title name
+	professor_dict[first_last] = ([list_all[i][1], list_all[i][2], list_all[i][3]])
+
+alphabetical = sorted(professor_dict, key = lambda name: name[1])
+for item in alphabetical:
+	print({item: professor_dict[item]})

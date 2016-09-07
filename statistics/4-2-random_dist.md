@@ -4,3 +4,4 @@
 
 ![PMF Image]
 (/Users/travisjames/ds/metis/metisgh/prework/ThinkStats2/code/chap04ex02PMF.png)
+Format: ![Alt Text](url)

@@ -2,7 +2,7 @@
 
 >> According to the Cohen's d coefficient, it appears that first babies are lighter than others. The coefficient value came out as -0.0887, which implies that babies that are born first are on average lighter than those born afterwards, properly weighted by the pooled standard deviation. In addition, first babies appear to have longer pregnancy lengths than those born after, with a Cohen's d coefficient of pregnancy length between the two groups of 0.0289. Therefore, it seems that first born babies in a family stay in the womb longer, but are lighter at birth than their siblings. This could possibly be explained by a mother's diet between first and second birth, and that they may be more comfortable giving birth after the first experience.
 
->>Code:
+Code:
 ```python
 
     from __future__ import print_function

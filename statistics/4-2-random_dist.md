@@ -2,6 +2,4 @@
 
 >> The exercise asks us to generate 1000 random numbers and see if the generator is in fact "random". The do so, one must visualize the PMF and CDF of the values generated, and see if they follow a uniform distribution. The following two images are the PMF and CDF generated from my python code, respectively:
 
-![PMF Image]
-(/Users/travisjames/ds/metis/metisgh/prework/ThinkStats2/code/chap04ex02PMF.png)
-Format: ![Alt Text](url)
+!(https://github.com/travishjames/dsp/commit/674506e48a5681586e12a4d426b9f37deda69d80)

@@ -75,10 +75,10 @@ Pr(identical) = Pr(i) = 1/300
 Pr(twin brothers|i) = 1/2
 Pr(twin brothers|f) = 1/2*1/2 = 1/4
 
->>From Bayes' Theorem, we know that: Pr(A|B) = Pr(B|A)*Pr(A)/Pr(B) = Pr(B|A)*Pr(A) / [Pr(B|A)*Pr(A) + Pr(B|Ac)*Pr(Ac)]
+>>From Bayes' Theorem, we know that: Pr(A|B) = Pr(B|A)\*Pr(A)/Pr(B) = Pr(B|A)\*Pr(A) / [Pr(B|A)\*Pr(A) + Pr(B|Ac)\*Pr(Ac)]
 
->>Pr(i|twin brothers) = Pr(twin brothers|i)*Pr(i)/[Pr(twin brothers|i)*Pr(i)+Pr(twin brothers|f)*Pr(f)]
-= (1/2*1/300)/(1/2*1/300 + 1/4*1/125) = 5/11
+>>Pr(i|twin brothers) = Pr(twin brothers|i)\*Pr(i)/[Pr(twin brothers|i)\*Pr(i)+Pr(twin brothers|f)\*Pr(f)]
+= (1/2\*1/300)/(1/2\*1/300 + 1/4\*1/125) = 5/11
 
 ---
 

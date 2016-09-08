@@ -85,7 +85,11 @@ Pr(twin brothers|f) = 1/2*1/2 = 1/4<br/>
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Bayesian and Frequentist statistics are similar on a number of grounds. They both specify some distribution of the data in question given a set of parameters. A likelihood function can be created as a function of the parameters, and both use probability in some shape or form to come up with conclusions. How probability is used, however, is where they differ.
+
+>> A Bayesian statistician beings with a prior distribution based on past data available about a random variable (or variables). After collecting new data, the statistician would update the prior distribution and come away with a posterior distribution, which reflects our state of knowledge about the variable after collecting the data. Because Bayesians view the parameters of interest as random variables, they are afforded the freedom to perform basic probabilistic computations. Confidence and prediction intervals involving the population parameter, for example, can be calculated and interpreted within this Bayesian framework.
+
+>> Frequentist statisticians, on the other hand, view the parameters of interest as fixed but unknown quantities. Therefore, probabalistic computations involving the population parameter(s), such as the aforementioned confidence interval, hold no meaning to them. This is because a parameter value should either fall in a range or not and cannot possess a degree of confidence as to whether this is true. Thus, frequentists only use probability statements regarding sampling, but not regarding the population parameters which are unobserved yet fixed. For example, Frequentists could construst a 95% confidence interval on a *random sample* from the population of interest, but only with the caveat that the data was collected through a random draw.
 
 ---
 

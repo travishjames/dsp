@@ -70,14 +70,28 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>Pr(fraternal) = Pr(f) = 1/125<br/>
+Pr(identical) = Pr(i) = 1/300<br/>
+Pr(twin brothers|i) = 1/2<br/>
+Pr(twin brothers|f) = 1/2*1/2 = 1/4<br/>
+
+>>From Bayes' Theorem, we know that: Pr(A|B) = Pr(B|A)\*Pr(A)/Pr(B) = Pr(B|A)\*Pr(A) / [Pr(B|A)\*Pr(A) + Pr(B|Ac)\*Pr(Ac)]
+
+>>Pr(i|twin brothers) = Pr(twin brothers|i)\*Pr(i)/[Pr(twin brothers|i)\*Pr(i)+Pr(twin brothers|f)\*Pr(f)]
+= (1/2\*1/300)/(1/2\*1/300 + 1/4\*1/125) = 5/11
 
 ---
 
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Bayesian and Frequentist statistics are similar on a number of grounds. They both specify some distribution of the data in question given a set of parameters. A likelihood function can be created as a function of the parameters, and both use probability in some shape or form to come up with conclusions. How probability is used, however, is where they differ.
+
+>> A Bayesian statistician beings with a prior distribution based on past data available about a random variable (or variables). After collecting new data, the statistician would update the prior distribution and come away with a posterior distribution, which reflects our state of knowledge about the variable after collecting the data. Because Bayesians view the parameters of interest as random variables, they are afforded the freedom to perform basic probabilistic computations. Confidence and prediction intervals involving the population parameter, for example, can be calculated and interpreted within this Bayesian framework.
+
+>> Frequentist statisticians, on the other hand, view the parameters of interest as fixed but unknown quantities. Therefore, probabalistic computations involving the population parameter(s), such as population confidence intervals, hold no meaning to them. This is because a parameter value should either fall in a range or not and cannot possess a degree of confidence as to whether this is true. Thus, frequentists only use probability statements regarding sampling, but not regarding the population parameters which are unobserved yet fixed. For example, Frequentists could construst a 95% confidence interval on a random sample from the population of interest, but only with the caveat that the data was collected through a random draw. 
+
+>> Therefore, while Bayesian and Frequentist statistics possess similarities in their view of distributions and the likelihood functions surrounding them, it is how they approach probabilistic computations and interpretations where they differ.
 
 ---
 
